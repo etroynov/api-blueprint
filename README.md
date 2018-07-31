@@ -1,16 +1,15 @@
 ![logo](assets/logo_apiblueprint.png)
 
 # API Blueprint
-### API Design for Humans
+### API Дизайн для людей
 
 [![slack](https://apiblueprint-slack.herokuapp.com/badge.svg)](https://apiblueprint-slack.herokuapp.com/)
 
-A powerful high-level API design language for web APIs.
+Мощьный высокоуровневый язык для проектирования веб API.
 
-API Blueprint is simple and accessible to everybody involved in the API design
-lifecycle. Its syntax is concise yet expressive.
+API Blueprint прост и доступен для всех тех кто занимается проектированием API полного жизненого цикла. Синтаксис данного языка прост но выразителен.
 
-With API Blueprint you can quickly prototype and model APIs to be created or
+С API Blueprint вы сможете быстро смоделировать прототип APIs to be created or
 describe already deployed mission-critical APIs. From a [car][tesla] to the
 largest Content Distribution Network (CDN) in the world.
 
@@ -31,7 +30,7 @@ Any [contribution][contribute] is highly appreciated.
 [contribute]: #contribute
 
 ## At home on GitHub
-API Blueprint language is recognized by GitHub. You can
+API Blueprint это язык признаный сервисом GitHub. Вы можете
 [search for API Blueprint][search] or use the `apib` language identifier for
 [syntax highlighting][gfm].
 
@@ -39,8 +38,8 @@ API Blueprint language is recognized by GitHub. You can
 
 [gfm]: https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting
 
-## Getting started
-All it takes to describe an endpoint of your API is to write:
+## С чего начать
+Для описания нашего первого API, будет достаточно:
 
 ```apib
 # GET /message
@@ -49,7 +48,7 @@ All it takes to describe an endpoint of your API is to write:
         Hello World!
 ```
 
-in your favorite plain text editor.
+в вашем любимом текстовом редкторе.
 
 With this blueprint you can already get a [mock][], [documentation][] and
 [test][] for your API before you even start coding.
@@ -61,59 +60,58 @@ To learn more about the API Blueprint syntax jump directly to the
 [documentation]: http://docs.apibstart.apiary.io
 [test]: http://dredd.readthedocs.org/en/latest/
 [tutorial]: Tutorial.md
-[examples]: https://github.com/apiaryio/api-blueprint/tree/master/examples
+[examples]: https://github.com/etroynov/api-blueprint/tree/master/examples
 
 ## Media Type
 The media type for API Blueprint is `text/vnd.apiblueprint`.
 
-## Learn more
-- [Tutorial][tutorial]
+## Информация для самостоятельного изучения
+- [Руководстово][tutorial]
 - [Advanced Tutorial][advanced_tutorial]
-- [Examples][examples]
-- [Wiki][wiki]
-- [Glossary of Terms][glossary]
-- [Specification][specification]
-- [List of Tools][tools]
-- [Developers][developers]
+- [Приметы][examples]
+- [Вики][wiki]
+- [Словарь терминов][glossary]
+- [Спецификация][specification]
+- [Инструменты][tools]
+- [Разработчикам][developers]
 
 [advanced_tutorial]: Advanced%20Tutorial.md
 [glossary]: Glossary%20of%20Terms.md
 [specification]: API%20Blueprint%20Specification.md
-[wiki]: https://github.com/apiaryio/api-blueprint/wiki
+[wiki]: https://github.com/etroynov/api-blueprint/wiki
 [developers]: https://apiblueprint.org/developers.html
 
-## Future
-The plans for API Blueprint are completely tracked on GitHub – see the
-[API Blueprint Roadmap][roadmap].
+## Дорожная карта
+Планы по дальнейшему развитию API Blueprint подробно описываются на GitHub – подробнее по ссылке
+[API Blueprint дорожная карта][roadmap].
 
-[roadmap]: https://github.com/apiaryio/api-blueprint/wiki/Roadmap
+[roadmap]: https://github.com/etroynov/api-blueprint/wiki/Roadmap
 
-## Developers
+## Разработчикам
 Building tools for API Blueprint is possible thanks to its machine-friendly face
 provided by API Blueprint parser.
 
 If you are interested in building tools for API Blueprint check out the
 [Developing tools for API Blueprint][developers].
 
-## Contribute
+## Сотрудничество
 Feel free report problems or propose new ideas using the API Blueprint GitHub
 [issues][].
 
 We use an RFC process for proposing any substantial changes to the API
 Blueprint language, specification and/or parsers.
 
-If you would like to propose a change, please consult our
+Если вы хотите предложить изменение, вы можете проконсультироватся please consult our
 [RFC process][rfc].
 
-[issues]: https://github.com/apiaryio/api-blueprint/issues
-[rfc]: https://github.com/apiaryio/api-blueprint-rfcs
+[issues]: https://github.com/etroynov/api-blueprint/issues
+[rfc]: https://github.com/etroynov/api-blueprint-rfcs
 
-## Get in Touch
+## Контакты для связи
 - [@apiblueprint](https://twitter.com/apiblueprint)
 - [Slack](https://apiblueprint-slack.herokuapp.com/)
 - [Stack Overflow](http://stackoverflow.com/questions/tagged/apiblueprint)
 - [GitHub Issues][issues]
 
-## License
-MIT License. See the [LICENSE](https://github.com/apiaryio/api-blueprint/blob/master/LICENSE)
-file.
+## Лицензия
+Данный язык доступен под MIT лицензией. Подробнее по ссылке [LICENSE](https://github.com/etroynov/api-blueprint/blob/master/LICENSE).

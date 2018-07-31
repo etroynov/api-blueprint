@@ -1,7 +1,6 @@
-# API Blueprint Tutorial
+# Руководство по API Blueprint
 
-Welcome to an API Blueprint Tutorial! This tutorial will take you through the
-basics of the API Blueprint language. We’re going to build an API blueprint
+Добро пожаловать в руководство по API Blueprint! Это руководство ознакомит вас с базавыми основами языка API Blueprint. We’re going to build an API blueprint
 step by step for a service called Polls – a simple API allowing consumers to
 view polls and vote in them. You can take a look at the 
 [full version][Poll API Blueprint] of the blueprint used in this tutorial for
